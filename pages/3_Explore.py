@@ -19,27 +19,7 @@ def show_sport_category():
         st.write("Kemenangan itu, lebih dari sekadar trofi besar atau medali emas. Ia adalah cerminan dari perjuangan, pengorbanan, dan tekad yang mengalir dalam darah setiap pemain. Ini adalah pengingat bahwa mimpi yang dikejar dengan semangat tak pernah sia-sia.")
         st.write("Ketika saya melihat kembali perjalanan menuju kejuaraan itu, saya tak hanya melihat kemenangan; saya melihat perjalanan inspiratif kami. Kami bukan hanya menang dalam olahraga, tetapi juga menang dalam memahami arti dari semangat bertanding, kerja tim, dan ketekunan. Dan di atas segalanya, kami menang dalam menginspirasi orang lain untuk bermimpi besar dan bertekad mewujudkannya")
         st.write("Kemenangan nasional dalam voli bukan hanya tentang mengangkat trofi ke atas kepala. Itu tentang mengangkat semangat, tekad, dan mimpi lebih tinggi. Itulah yang membuat olahraga menjadi lebih dari sekadar pertandingan; ia menjadi cerminan dari kekuatan yang ada dalam diri kita untuk mencapai sesuatu yang luar biasa.")
-        title = st.text_input("Tuliskan konetar anda")
-        category = st.selectbox("silahkan rating", ["😍", "😐", "😔"])
-
-        if category == "😍":
-            show_sport_category()
-        elif category == "😐":
-            show_sport_category()
-        elif category == "😔":
-            show_sport_category()
-
-        submitted = st.button("kirimkan")
-        if submitted:
-            if title and content:
-                    # Lakukan proses penyimpanan artikel (misalnya, ke database atau penyimpanan sementara)
-                st.success("Terimakasih atas komentarnya!")
-                st.write(f"komentar: {title}")
-                st.write(f"Rating anda: {content}")
-                    
-            else:
-                st.error("Judul dan isi artikel diperlukan.")
-
+       
     elif selected_tab == "Sepak Bola":
                 
         st.subheader("Kisah Inspiratif di Lapangan Hijau: Dari Cidera Parah hingga Jadi Pelatih")
@@ -52,27 +32,7 @@ def show_sport_category():
         st.write("Cidera itu bukanlah akhir, melainkan awal dari petualangan baru saya. Menjadi pelatih adalah jawaban dari semangat yang tak pernah padam untuk mencapai sesuatu yang lebih besar. Saya belajar bahwa kadang-kadang, terkadang kegagalan membuka pintu menuju perjalanan baru yang lebih berharga.")
         st.write("Setiap kali saya berdiri di pinggir lapangan, hati saya penuh dengan rasa syukur. Saya masih terlibat dalam olahraga yang saya cintai, tetapi dari perspektif yang berbeda. Perjalanan dari pemain yang cedera hingga menjadi pelatih telah mengajari saya bahwa kegagalan tidak selalu menghentikan kita; terkadang, ia mengarahkan kita pada perjalanan yang lebih bermakna.")
             
-        title = st.text_input("Tuliskan konetar anda")
-        category = st.selectbox("silahkan rating", ["😍", "😐", "😔"])
-
-        if category == "😍":
-            show_sport_category()
-        elif category == "😐":
-            show_sport_category()
-        elif category == "😔":
-            show_sport_category()
-
-        submitted = st.button("kirimkan")
-        if submitted:
-            if title and content:
-                # Lakukan proses penyimpanan artikel (misalnya, ke database atau penyimpanan sementara)
-                st.success("Terimakasih atas komentarnya!")
-                st.write(f"komentar: {title}")
-                st.write(f"Rating anda: {content}")
-                    
-            else:
-                st.error("Judul dan isi artikel diperlukan.")
-
+        
     elif selected_tab == "Batminton":
                 
         st.subheader("Membatasi Mimpi: Ketika Cinta pada Bulutangkis Tergesa-Gesa oleh Kendala")
@@ -85,27 +45,7 @@ def show_sport_category():
         st.write("Jika saja dunia bisa melihat betapa bulutangkis bukan sekadar sebuah hobi bagi anak muda ini. Itu adalah lebih dari sekadar sebuah olahraga; itu adalah mimpi yang ingin mempersembahkan semangat, kerja keras, dan kesuksesan. Itu adalah bagian dari dirinya yang ingin diberikan kepada dunia.")
         st.write("Mungkin satu hari, ia akan menemukan jalan untuk menyatukan dunianya yang penuh tanggung jawab dengan hasratnya yang tak terbendung. Mungkin, orang tuanya akan melihat betapa bulutangkis adalah bagian dari jiwanya, bukan hanya kesenangan sesaat. Dan mungkin, pada akhirnya, mimpi yang dibatasi akan menemukan cara untuk terbang bebas, meski jalan menuju sana tidaklah mudah.")
         st.write("Mungkin kisah ini bukan tentang menentang orang tua atau mengecilkan nilai nasihat mereka. Tapi ini tentang menemukan keseimbangan antara kebutuhan kita dan kebahagiaan mereka. Dan pada akhirnya, tentang menemukan jalan kita sendiri menuju apa yang kita yakini. Mimpi itu bisa terlalu kuat untuk ditahan, tapi kadang-kadang, kita harus menemukan caranya untuk membiarkan mimpi itu melayang bebas.")
-        title = st.text_input("Tuliskan konetar anda")
-        category = st.selectbox("silahkan rating", ["😍", "😐", "😔"])
-
-        if category == "😍":
-            show_sport_category()
-        elif category == "😐":
-            show_sport_category()
-        elif category == "😔":
-            show_sport_category()
-
-        submitted = st.button("kirimkan")
-        if submitted:
-            if title and content:
-                    # Lakukan proses penyimpanan artikel (misalnya, ke database atau penyimpanan sementara)
-                st.success("Terimakasih atas komentarnya!")
-                st.write(f"komentar: {title}")
-                st.write(f"Rating anda: {content}")
-                    
-            else:
-                st.error("Judul dan isi artikel diperlukan.")
-
+       
     elif selected_tab == "Lain-lain":
                 
         st.subheader("Menuju Puncak di Dunia eSports: Perjalanan Seorang Gamer")
@@ -118,27 +58,7 @@ def show_sport_category():
         st.write("Dan pada akhirnya, tiba saatnya untuk menapaki panggung besar kejuaraan eSports. Di sini, di depan ribuan bahkan jutaan penonton yang bergumul dalam antusiasme, di sinilah segala pengorbanan, kerja keras, dan ketekunan berbuah hasil. Meskipun hasilnya tidak selalu kemenangan, tetapi pengalaman itu sendiri adalah hadiah yang tak ternilai.")
         st.write("Setiap peserta membawa pulang lebih dari sekadar trofi atau hadiah uang. Mereka membawa pulang pengalaman yang tak terlupakan, koneksi dengan komunitas yang sama, dan keyakinan bahwa perjuangan mereka adalah bagian dari membangun sebuah peradaban digital yang baru.")
         st.write("Kisah-kisah ini, dari gamer yang memulai dari ruang kamar hingga panggung kejuaraan eSports, adalah bukti akan kegigihan, dedikasi, dan semangat manusia untuk mencapai sesuatu yang lebih. Dunia eSports telah menjadi bukti bahwa kecintaan pada permainan video bisa menjadi sesuatu yang jauh lebih besar—sebuah kompetisi, seni, dan perayaan dari keahlian dan semangat yang luar biasa.")
-        title = st.text_input("Tuliskan konetar anda")
-        category = st.selectbox("silahkan rating", ["😍", "😐", "😔"])
-
-        if category == "😍":
-            show_sport_category()
-        elif category == "😐":
-            show_sport_category()
-        elif category == "😔":
-            show_sport_category()
-
-        submitted = st.button("kirimkan")
-        if submitted:
-            if title and content:
-                    # Lakukan proses penyimpanan artikel (misalnya, ke database atau penyimpanan sementara)
-                st.success("Terimakasih atas komentarnya!")
-                st.write(f"komentar: {title}")
-                st.write(f"Rating anda: {content}")
-                    
-            else:
-                st.error("Judul dan isi artikel diperlukan.")
-
+       
 
 
 
@@ -292,31 +212,30 @@ def show_music_category():
            
 
 
-
 def show_film_category():
-    st.title("Kategori ")
+    st.title("Kategori Film")
     st.write("Ini adalah halaman untuk kategori film.")
 
-    selected_tab = option_menu(menu_title=None, options=["Bola Voli", "Sepak Bola", "Batminton", "Lain-lain"],orientation="horizontal",key="nav",)
-    if selected_tab == "Bola Voli":
+    selected_tab = option_menu(menu_title=None, options=["Romance", "Senang", "Sedih", "Lain-lain"],orientation="horizontal",key="nav",)
+    if selected_tab == "Romance":
             
             
                 
                 
-        st.subheader("Ketika Mimpi Jadi Kenyataan: Cerita Kemenangan di Kejuaraan Nasional Voli")
-        st.write("create: Alvia")
-        st.write("Kemenangan tak pernah terasa semanis ketika kamu mengejarnya dengan sepenuh hati. Bagi sebagian besar dari kita, sebuah kejuaraan nasional adalah mimpi terbesar yang hanya bisa diwujudkan oleh para atlet paling berdedikasi. Bagi saya, voli bukan sekadar olahraga. Ia adalah panggung di mana mimpi menjadi kenyataan.")
-        st.write("Pengalaman mendebarkan saat berpartisipasi dalam Kejuaraan Nasional Voli masih terpatri kuat dalam ingatan saya. Semua dimulai dari latihan yang tak kenal lelah, keringat yang mengalir, dan semangat yang terus membara. Kami, sebagai tim, telah berkomitmen secara penuh untuk mencapai sesuatu yang lebih dari sekadar trofi. Kami membidik momen yang akan mengukir sejarah bagi kami.")
-        st.write("Kompetisi dimulai dengan ketegangan yang tak tertahankan. Setiap servis, setiap smash, dan setiap blok menjadi detik-detik yang menggetarkan hati. Saat pertandingan berlangsung, terlihatlah semangat yang tak terbendung di mata rekan satu tim, di setiap gerakan yang dikerahkan untuk meraih tiap poin. Namun, persaingan bukanlah satu-satunya tantangan; ada tekanan dari ekspektasi dan harapan yang harus diemban. Semua itu menghadirkan tantangan tersendiri.")
-        st.write("Namun, di tengah hiruk-pikuk pertandingan, kami menemukan alasan kami berada di sana: cinta pada olahraga ini dan dukungan luar biasa dari tim. Kami merangkul setiap kemenangan, namun juga belajar dari setiap kekalahan. Tiap peluang kami di lapangan adalah kesempatan untuk tumbuh dan menunjukkan apa yang kami bisa.")
-        st.write("Dan akhirnya, saat momen yang kami tunggu-tunggu tiba, kami menemukan diri kami berada di puncak. Dalam laga final yang menegangkan, kami berhasil meraih gelar juara. Rasanya tak tergambarkan, suatu kegembiraan yang melebihi kata-kata. Itu bukan hanya kemenangan bagi kami, tetapi juga bagi semangat, dedikasi, dan kerja keras yang kami tanamkan.")
+        st.subheader("Mengungkap Keindahan Kisah Cinta dalam Dunia Film: Romantis dan Mengharukan")
+        st.write("create: Mine")
+        st.write("Kisah cinta selalu menjadi tema yang tak pernah lekang oleh waktu. Dalam dunia film, genre romantis menjadi pencerminan yang indah dari keajaiban percintaan manusia. Bukan sekadar tentang kisah asmara, film-film romantis seringkali menggambarkan perjalanan emosional yang menggetarkan hati penonton.")
+        st.write("Dari 'Casablanca' hingga 'The Notebook', film-film ini telah berhasil membius kita dengan kekuatan cerita yang memilukan dan mengharukan. Bukan hanya sekadar alur cerita yang menarik, tetapi juga kekuatan penghayatan karakter dan chemistry di antara para pemain yang membuat film-film romantis ini begitu memikat.")
+        st.write("Salah satu daya tarik utama dari genre ini adalah kemampuannya untuk menghadirkan seutas harapan di tengah-tengah kehidupan yang sering kali keras dan kompleks. Dalam setiap adegannya, film-film romantis mengajak kita memimpikan kisah cinta yang abadi, meyakini bahwa cinta sejati adalah kekuatan yang mampu mengatasi segala rintangan.")
+        st.write("Tidak hanya itu, keindahan visual dan latar yang dipilih dalam film-film romantis juga turut menjadi bagian yang tak terpisahkan. Dari suasana kota Paris yang romantis hingga pedesaan yang tenang, setiap latar memberikan nuansa yang mendalam pada cerita yang disampaikan.")
+        st.write("Namun, tidak selalu tentang akhir yang bahagia. Film-film romantis juga terkadang menghadirkan tragedi cinta yang meninggalkan kesan mendalam pada penonton. Di balik cerita yang penuh keindahan, film-film ini juga mampu mengajarkan banyak hal tentang kehidupan dan makna sejati dari cinta.")
         st.write("Kemenangan itu, lebih dari sekadar trofi besar atau medali emas. Ia adalah cerminan dari perjuangan, pengorbanan, dan tekad yang mengalir dalam darah setiap pemain. Ini adalah pengingat bahwa mimpi yang dikejar dengan semangat tak pernah sia-sia.")
-        st.write("Ketika saya melihat kembali perjalanan menuju kejuaraan itu, saya tak hanya melihat kemenangan; saya melihat perjalanan inspiratif kami. Kami bukan hanya menang dalam olahraga, tetapi juga menang dalam memahami arti dari semangat bertanding, kerja tim, dan ketekunan. Dan di atas segalanya, kami menang dalam menginspirasi orang lain untuk bermimpi besar dan bertekad mewujudkannya")
-        st.write("Kemenangan nasional dalam voli bukan hanya tentang mengangkat trofi ke atas kepala. Itu tentang mengangkat semangat, tekad, dan mimpi lebih tinggi. Itulah yang membuat olahraga menjadi lebih dari sekadar pertandingan; ia menjadi cerminan dari kekuatan yang ada dalam diri kita untuk mencapai sesuatu yang luar biasa.")
+        st.write("Dalam era modern, film-film romantis terus berkembang dengan berbagai pendekatan baru. Kisah cinta tidak lagi hanya terbatas pada formula klise, tetapi juga menggali berbagai tema yang lebih kompleks, menyajikan cerita cinta yang realistis dan relevan bagi generasi saat ini.")
+        st.write("Sebagai penutup, film romantis bukan hanya sekadar hiburan. Mereka adalah cerminan dari kerumitan emosi manusia, keindahan hubungan antarmanusia, serta kekuatan cinta yang mampu mengatasi segala batasan. Film-film romantis tetap menjadi tempat yang nyaman bagi para penonton untuk merenungkan, menginspirasi, dan terkadang, bahkan menggugah hati mereka.")
                 
 
                 
-    elif selected_tab == "Sepak Bola":
+    elif selected_tab == "Senang":
                 
         st.subheader("Kisah Inspiratif di Lapangan Hijau: Dari Cidera Parah hingga Jadi Pelatih")
         st.write("create: Cang S")
@@ -329,7 +248,7 @@ def show_film_category():
         st.write("Setiap kali saya berdiri di pinggir lapangan, hati saya penuh dengan rasa syukur. Saya masih terlibat dalam olahraga yang saya cintai, tetapi dari perspektif yang berbeda. Perjalanan dari pemain yang cedera hingga menjadi pelatih telah mengajari saya bahwa kegagalan tidak selalu menghentikan kita; terkadang, ia mengarahkan kita pada perjalanan yang lebih bermakna.")
                 
                 
-    elif selected_tab == "Batminton":
+    elif selected_tab == "sedih":
                 
         st.subheader("Membatasi Mimpi: Ketika Cinta pada Bulutangkis Tergesa-Gesa oleh Kendala")
         st.write("create: Uliano")
@@ -358,16 +277,16 @@ def show_film_category():
 def main():
     st.title("Category")
 
-    selected_category = st.sidebar.radio("Pilih Kategori", ["Olahraga", "Art", "music", "film"])
+    selected_category = st.sidebar.radio("Choose a category", ["Sport", "Art", "Music", "Film"])
 
-    if selected_category == "Olahraga":
+    if selected_category == "Sport":
         show_sport_category()
     elif selected_category == "Art":
         show_art_category()
-    elif selected_category == "music":
+    elif selected_category == "Music":
         show_music_category()
-    elif selected_category == "Lain-lain":
-        show_Lain_category()
+    elif selected_category == "Film":
+        show_film_category()
 
 
 

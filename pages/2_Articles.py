@@ -71,8 +71,11 @@ def main():
             
         else:
             st.error("Write your comment")
+     url = "https://www.um-surabaya.ac.id/article/tag/olahraga"
 
-
+     if st.button("Salin URL"):
+        st.write("URL telah disalin ke clipboard:")
+        st.write(url)
 
 
 
