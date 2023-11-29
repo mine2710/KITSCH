@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
     
 def show_sport_category():
             
-    st.title("Category Olahraga")
+    st.title("Category Sport")
     
 
     selected_tab = option_menu(menu_title=None, options=["Bola Voli", "Sepak Bola", "Batminton", "Lain-lain"],orientation="horizontal",key="nav",)
@@ -66,7 +66,7 @@ def show_sport_category():
 
 
 def show_art_category():
-    st.title("Category seni")
+    st.title("Category Art")
     
 
     selected_tab = option_menu(menu_title=None, options=["Lukisan", "Tarian", "Bahasa", "Lain-lain"],orientation="horizontal",key="nav",)
@@ -140,7 +140,7 @@ def show_art_category():
 
 
 def show_music_category():
-    st.title("Category musik")
+    st.title("Category Music")
     
 
     selected_tab = option_menu(menu_title=None, options=["Musik Barat", "Lagu Kpop", "Lagu Daerah", "Lain-lain"],orientation="horizontal",key="nav",)
