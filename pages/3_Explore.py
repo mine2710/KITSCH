@@ -3,8 +3,8 @@ from streamlit_option_menu import option_menu
     
 def show_sport_category():
             
-    st.title("Kategori Olahraga")
-    st.write("Ini adalah halaman untuk kategori Olahraga.")
+    st.title("Category Olahraga")
+    
 
     selected_tab = option_menu(menu_title=None, options=["Bola Voli", "Sepak Bola", "Batminton", "Lain-lain"],orientation="horizontal",key="nav",)
     if selected_tab == "Bola Voli":
@@ -66,8 +66,8 @@ def show_sport_category():
 
 
 def show_art_category():
-    st.title("Kategori seni")
-    st.write("Ini adalah halaman untuk kategori seni.")
+    st.title("Category seni")
+    
 
     selected_tab = option_menu(menu_title=None, options=["Lukisan", "Tarian", "Bahasa", "Lain-lain"],orientation="horizontal",key="nav",)
     if selected_tab == "Lukisan":
@@ -140,8 +140,8 @@ def show_art_category():
 
 
 def show_music_category():
-    st.title("Kategori musik")
-    st.write("Ini adalah halaman untuk kategori musik.")
+    st.title("Category musik")
+    
 
     selected_tab = option_menu(menu_title=None, options=["Musik Barat", "Lagu Kpop", "Lagu Daerah", "Lain-lain"],orientation="horizontal",key="nav",)
     if selected_tab == "Musik Barat":
@@ -213,8 +213,8 @@ def show_music_category():
 
 
 def show_film_category():
-    st.title("Kategori Film")
-    st.write("Ini adalah halaman untuk kategori film.")
+    st.title("Category Film")
+    s
 
     selected_tab = option_menu(menu_title=None, options=["Romance", "Senang", "Sedih", "Lain-lain"],orientation="horizontal",key="nav",)
     if selected_tab == "Romance":
