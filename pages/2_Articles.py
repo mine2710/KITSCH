@@ -5,38 +5,8 @@ from streamlit_option_menu import option_menu
 def show_content(content_name):
     st.write("Let's send your feedback!!")
 
-# def football_page():
-#     st.title("Halaman Sepak Bola")
-#     st.write("Ini adalah halaman tentang sepak bola.")
-
-# def musik():
-#     st.title("Halaman Bola Basket")
-#     st.write("Ini adalah halaman tentang bola basket.")
-
-# def seni():
-#     st.title("Halaman Tenis")
-#     st.write("Ini adalah halaman tentang tenis.")
-
-# def film():
-#     st.title("Halaman Tenis")
-#     st.write("Ini adalah halaman tentang tenis.")
-
 def main():
     st.title("Article Category")
-
-    # bola, basket, tennis = st.columns(3)
-    # with bola:
-    #     if st.button("Sepak bola"):
-    #         football_page()
-    # with basket:
-    #     if st.button("Bola Basket"):
-    #         musik()
-
-    # with tennis:
-    #     if st.button("Tennis"):
-    #         seni()
-        
-    # Tombol-tombol untuk olahraga
     selected_tab = option_menu(menu_title=None, options=["Sport", "Music", "Film", "Art"],orientation="horizontal",key="nav",)
     if selected_tab == "Sport":
      
@@ -194,13 +164,6 @@ def main():
 
         
     
-    # if st.button("musik"):
-    #     musik()
-    
-    # if st.button("film"):
-    #     film()
-
-    # if st.button("seni"):
-    #     seni()
+   
 if __name__ == "__main__":
     main()
